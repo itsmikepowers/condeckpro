@@ -1,0 +1,20 @@
+/* YouTube Button Hover State */
+.youtube-button:hover {
+  background-color: red !important;
+  color: white !important; 
+  border-color: transparent !important; 
+}
+
+/* Instagram Button Hover State */
+.instagram-button:hover {
+  background-color: rgb(81, 91, 212) !important; 
+  color: white !important;
+  border-color: transparent !important;
+}
+
+/* Linkedin Button Hover State */
+.linkedin-button:hover {
+  background-color: rgb(0, 119, 255) !important;
+  color: white !important; 
+  border-color: transparent !important; 
+}
