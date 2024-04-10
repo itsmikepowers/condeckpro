@@ -12,11 +12,11 @@ function App() {
 
   const fetchVideo = async () => {
     setLoading(true);
-    const url = 'https://tiktok-download-video1.p.rapidapi.com/userPublishVideo?unique_id=%40mikepowershd&count=1';
+    const url = 'https://tiktok-download-video1.p.rapidapi.com/userPublishVideo?unique_id=%40[YOUR-USERNAME]&count=1';
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '0c87a22c58msh9b1562f271fe2e7p1065f7jsn94aca66b0811',
+        'X-RapidAPI-Key': 'ADD-YOUR-API-KEY-HERE',
         'X-RapidAPI-Host': 'tiktok-download-video1.p.rapidapi.com'
       }
     };
