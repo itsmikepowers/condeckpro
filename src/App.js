@@ -86,7 +86,7 @@ function App() {
                 Copy Caption
               </Button>
               <Button 
-                onClick={() => navigateToUrl('https://www.facebook.com/profile.php?id=100095173182390')} 
+                onClick={() => navigateToUrl('https://www.facebook.com/')} 
                 leftIcon={<ExternalLinkIcon />} 
                 variant="outline" 
                 colorScheme="gray" 
@@ -96,7 +96,7 @@ function App() {
                 Facebook
               </Button>
               <Button 
-                onClick={() => navigateToUrl('https://studio.youtube.com/channel/UCJJqeW8My07X2r_WXokg-Cw/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D')} 
+                onClick={() => navigateToUrl('https://studio.youtube.com/')} 
                 leftIcon={<ExternalLinkIcon />} 
                 variant="outline" 
                 colorScheme="gray" 
@@ -116,7 +116,7 @@ function App() {
                 Instagram
               </Button>
               <Button 
-                onClick={() => navigateToUrl('https://www.linkedin.com/in/itsmikepowers/overlay/create-post/')} 
+                onClick={() => navigateToUrl('https://www.linkedin.com/')} 
                 leftIcon={<ExternalLinkIcon />} 
                 variant="outline" 
                 colorScheme="gray" 
