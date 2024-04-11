@@ -10,6 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const toast = useToast();
 
+  // Use this API! https://rapidapi.com/llbbmm/api/tiktok-download-video1
   const fetchVideo = async () => {
     setLoading(true);
     const url = 'https://tiktok-download-video1.p.rapidapi.com/userPublishVideo?unique_id=%40[YOUR-USERNAME]&count=1';
@@ -26,7 +27,7 @@ function App() {
       const data = await response.json();
       const videoData = data?.data?.videos[0];
       if (videoData) {
-        setVideoUrl(videoData.play);
+        setVideoUrl(videoData.hdplay);
         setCaption(videoData.title);
       } else {
         console.error("Video URL or caption not found");
