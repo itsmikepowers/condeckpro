@@ -27,7 +27,7 @@ function App() {
       const data = await response.json();
       const videoData = data?.data?.videos[0];
       if (videoData) {
-        setVideoUrl(videoData.hdplay);
+        setVideoUrl(videoData.play);
         setCaption(videoData.title);
       } else {
         console.error("Video URL or caption not found");
